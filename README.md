@@ -1,2 +1,3 @@
 # MvcProjeKampi
- MVC Proje Kampı İçin Repository
+
+MVC Proje Kampı Görevleri İçin Oluşturulan Repository
