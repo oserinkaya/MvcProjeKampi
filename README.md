@@ -1,3 +1,6 @@
 # MvcProjeKampi
 
-MVC Proje Kampı Görevleri İçin Oluşturulan Repository
+MVC Proje Kampı İçin Oluşturulan Repository
+
+
+#### Proje Kapsamında Yapılan İşlemler
