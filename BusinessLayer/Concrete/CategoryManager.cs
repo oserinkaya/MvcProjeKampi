@@ -12,31 +12,16 @@ namespace BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        ICategoryDal _categorydal;
+        ICategoryDal _categoryDal;
 
+        public CategoryManager(ICategoryDal categoryDal)
+        {
+            _categoryDal = categoryDal;
+        }
 
-
-        //GenericRepository<Category> repo = new GenericRepository<Category>();
-
-        //public List<Category> GetAllBL()
-        //{
-        //    return repo.List();
-        //}
-
-        //public void CategoryAddBL(Category p)
-        //{
-        //    if (p.CategoryName == "" || p.CategoryName.Length <= 3 || p.CategoryDescription == "" || p.CategoryName.Length >= 51)
-        //    {
-        //        //HATA MESAJI
-        //    }
-        //    else
-        //    {
-        //        repo.Insert(p);
-        //    }
-        //}
         public List<Category> GetList()
         {
-            return 
+            return _categoryDal.List();
         }
     }
 }
