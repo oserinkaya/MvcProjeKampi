@@ -33,3 +33,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Kategori ekleme hataları ve verilmesi gereken hata mesajları konusundan bahsedildi.
    - Business Layer katmanında Abstract ve interface olarak ICategoryService kavramları gösterildi.
    - Constructor Business Metot oluşturuldu.
+#### Ders 29-32
+   - DataAccessLayer katmanında entity framework sınıfları oluşturuldu.
+   - Fluent Validation kavramına giriş yapıldı ve ilgili bileşenler kuruldu.
+   - Validasyon işlemlerinden bahsedildi.
+   - Html helper kapsamında "ValidationMessageFor" kullanımı gösterildi ve hata mesajları ilgili yerlerde gösterildi.
