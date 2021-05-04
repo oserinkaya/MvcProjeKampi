@@ -19,9 +19,26 @@ namespace BusinessLayer.Concrete
             _categoryDal = categoryDal;
         }
 
+        public void CategoryAddBL(Category category)
+        {
+            _categoryDal.Insert(category);
+        }
+
         public List<Category> GetList()
         {
             return _categoryDal.List();
         }
+
+        //public void CategoryAddBL(Category p)
+        //{
+        //    if (p.CategoryName == "" || p.CategoryStatus == false || p.CategoryName.Length <= 2)
+        //    {
+        //        //HATA MESAJI
+        //    }
+        //    else
+        //    {
+        //        _categoryDal.Insert(p);
+        //    }
+        //}
     }
 }
