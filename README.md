@@ -3,7 +3,8 @@
 MVC Proje Kampı İçin Oluşturulan Repository
 
 
-#### Proje Kapsamında Yapılan İşlemler
+### Proje Kapsamında Yapılan İşlemler
+#### Ders 1-20
    - Giriş yapıldı ve proje oluşturuldu.
    - View, Controller ve Layout kavramları üzerinde duruldu.
    - Katmanların oluşturuldu.
@@ -22,5 +23,13 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Generic Repository kavramı üzerinde duruldu.
    - BusinessLayer katmanı üzerinde çalışma yapıldı.
    - Tablo kullanımı çalışmaları yapıldı.
+#### Ders 21-24
    - Bootstrap kavramı üzerinde çalışmalar yapıldı.
+   - Kategorilerin listelenmesi yapıldı.
+   - Breakpoint kavramı hakkında bilgi verildi.
    - Kategori ekleme işlemine giriş yapıldı.
+#### Ders 25-28
+   - HttpGet ve HttpPost atributelar hakkında bilgi verildi.
+   - Kategori ekleme hataları ve verilmesi gereken hata mesajları konusundan bahsedildi.
+   - Business Layer katmanında Abstract ve interface olarak ICategoryService kavramları gösterildi.
+   - Constructor Business Metot oluşturuldu.
