@@ -43,3 +43,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Tema üzerinde temel düzenlemeler yapılarak css, js ve image bağlantıları düzeltildi.
    - Sol (sidebar) menü kısmında düzenleme ve Türkçeleştirme çalışmaları yapıldı.
    - Sidebar kullanılarak kategorilerin listelenmesi ve yeni kategori ekleme çalışmaları yapıldı.
+#### Ders 37-40
+   - Kategori silme işlemi için kategorinin buldurulması için GetByID kavramı gösterildi.
+   - Kategori silme işlemi gerçekleştirildi.
+   - Kategori güncelleme işlemi için güncellenecek kategori bilgilerinin güncelleme sayfasına taşınması işlemleri yapıldı.
+   - Kategori güncelleme işlemine giriş yapıldı.
