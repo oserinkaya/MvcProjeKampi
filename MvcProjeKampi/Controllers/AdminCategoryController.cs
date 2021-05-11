@@ -50,5 +50,13 @@ namespace MvcProjeKampi.Controllers
 
             return View();
         }
+
+        public ActionResult DeleteCategory (int id)
+        {
+            var categoryvalue = cm.GetByID(id);
+            cm.CategoryDelete(categoryvalue);
+
+            return RedirectToAction("Index");
+        }
     }
 }
