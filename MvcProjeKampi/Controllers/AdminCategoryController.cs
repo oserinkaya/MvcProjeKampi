@@ -66,5 +66,13 @@ namespace MvcProjeKampi.Controllers
 
             return View(categoryvalue);
         }
+
+        [HttpPost]
+        public ActionResult EditCategory(Category p)
+        {
+            cm.CategoryUpdate(p);
+
+            return RedirectToAction("Index");
+        }
     }
 }
