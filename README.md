@@ -52,5 +52,4 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Entity State komutlarından bahsedildi ve kategori işlemlerine uygulaması yapıldı.
    - Yazar işlemlerinin yapılmasına başlandı.
    - Yazar profillerinin listelenmesi yapıldı ve seçilen temanın bu listelemeye uygulaması yapıldı.
-   - Yazarlar tablosuna "Hakkında" alanı eklenip diğer alanlarda güncelleme yapılarak "add-migration" ile veritabanına yansıtılması yapıldı.
-   - Yeni yazar ekleme işlemleri gerçekleştirildi.
+   - Yazarlar tablosuna "Hakkında" alanı eklenip diğer alanlarda güncelleme yapılarak "add-migration" ile veritabanına yansıtılması yapıldı ve yeni yazar ekleme işlemleri gerçekleştirildi.
