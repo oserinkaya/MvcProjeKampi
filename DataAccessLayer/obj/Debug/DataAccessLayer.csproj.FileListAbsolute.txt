@@ -15,3 +15,4 @@ C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\Dat
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
