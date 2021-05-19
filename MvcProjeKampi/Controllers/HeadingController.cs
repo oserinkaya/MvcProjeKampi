@@ -14,6 +14,7 @@ namespace MvcProjeKampi.Controllers
         // GET: Heading
         HeadingManager hm = new HeadingManager(new EfHeadingDal());
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
+        WriterManager wm = new WriterManager(new EfWriterDal());
 
         public ActionResult Index()
         {
@@ -31,7 +32,16 @@ namespace MvcProjeKampi.Controllers
                                                       Text = x.CategoryName,
                                                       Value = x.CategoryID.ToString()
                                                   }).ToList();
+
+            List<SelectListItem> valuewriter = (from x in wm.GetList()
+                                                select new SelectListItem
+                                                {
+                                                    Text = x.WriterName + " " + x.WriterSurName,
+                                                    Value = x.WriterID.ToString()
+                                                }).ToList();
+
             ViewBag.vlc = valuecategory;
+            ViewBag.vlw = valuewriter;
             return View();
         }
 
