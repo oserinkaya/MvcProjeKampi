@@ -7,7 +7,7 @@ MVC Proje Kampı İçin Oluşturulan Repository
 #### Ders 1-20
    - Giriş yapıldı ve proje oluşturuldu.
    - View, Controller ve Layout kavramları üzerinde duruldu.
-   - Katmanların oluşturuldu.
+   - Katmanlar oluşturuldu.
    - Entity katmanı sınıfları oluşturuldu.
    - Category, About ve Contact sınıfları oluşturuldu.
    - Tablolar (sınıflar) arasında ilişkiler oluşturuldu.
@@ -29,7 +29,7 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Breakpoint kavramı hakkında bilgi verildi.
    - Kategori ekleme işlemine giriş yapıldı.
 #### Ders 25-28
-   - HttpGet ve HttpPost atributelar hakkında bilgi verildi.
+   - HttpGet ve HttpPost attributelar hakkında bilgi verildi.
    - Kategori ekleme hataları ve verilmesi gereken hata mesajları konusundan bahsedildi.
    - Business Layer katmanında Abstract ve interface olarak ICategoryService kavramları gösterildi.
    - Constructor Business Metot oluşturuldu.
@@ -48,3 +48,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Kategori silme işlemi gerçekleştirildi.
    - Kategori güncelleme işlemi için güncellenecek kategori bilgilerinin güncelleme sayfasına taşınması işlemleri yapıldı.
    - Kategori güncelleme işlemine giriş yapıldı.
+#### Ders 41-44
+   - Entity State komutlarından bahsedildi ve kategori işlemlerine uygulaması yapıldı.
+   - Yazar işlemlerinin yapılmasına başlandı.
+   - Yazar profillerinin listelenmesi yapıldı ve seçilen temanın bu listelemeye uygulaması yapıldı.
+   - Yazarlar tablosuna "Hakkında" alanı eklenip diğer alanlarda güncelleme yapılarak "add-migration" ile veritabanına yansıtılması yapıldı ve yeni yazar ekleme işlemleri gerçekleştirildi.
