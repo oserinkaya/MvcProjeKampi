@@ -52,5 +52,10 @@ namespace MvcProjeKampi.Controllers
             hm.HeadingAdd(p);
             return RedirectToAction("Index");
         }
+
+        public ActionResult ContentByHeading()
+        {
+            return View();
+        }
     }
 }
