@@ -53,3 +53,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Yazar işlemlerinin yapılmasına başlandı.
    - Yazar profillerinin listelenmesi yapıldı ve seçilen temanın bu listelemeye uygulaması yapıldı.
    - Yazarlar tablosuna "Hakkında" alanı eklenip diğer alanlarda güncelleme yapılarak "add-migration" ile veritabanına yansıtılması yapıldı ve yeni yazar ekleme işlemleri gerçekleştirildi.
+#### Ders 45-48
+   - Yazarlara ait ekleme, güncelleme, listeleme işlemleri tamamlandı.
+   - Başlık işlemlerine giriş yapıldı.
+   - Başlıklara ilişkin işlemlerde dropdown list ve ilişki kullanımı gösterildi.
+   - Başlıklara ilişkin işlemlerde oluşturan yazar ve kategori isimlerinin getirilmesi konusunda çalışma yapıldı.
