@@ -10,8 +10,18 @@
 {
     <div class="form-group">
         @Html.Label("Başlık ID")
+        @Html.TextBoxFor(x => x.HeadingID, new { @class = "form-control" })
+        <br />
+        @Html.Label("Başlık Adı")
         @Html.TextBoxFor(x => x.HeadingName, new { @class = "form-control" })
         <br />
+        @Html.Label("Tarih")
+        @Html.TextBoxFor(x => x.HeadingDate, new { @class = "form-control" })
+        <br />
+        @Html.Label("Yazar ID")
+        @Html.TextBoxFor(x => x.WriterID, new { @class = "form-control" })
+        <br />
+        @Html.Label("Kategori")
         @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
         <br />
         <button class="btn btn-success">Güncelle</button>
