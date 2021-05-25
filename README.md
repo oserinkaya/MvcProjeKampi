@@ -58,3 +58,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Başlık işlemlerine giriş yapıldı.
    - Başlıklara ilişkin işlemlerde dropdown list ve ilişki kullanımı gösterildi.
    - Başlıklara ilişkin işlemlerde oluşturan yazar ve kategori isimlerinin getirilmesi konusunda çalışma yapıldı.
+#### Ders 49-52
+   - Başlıklar bölümüne tema uygulama çalışmaları yapıldı.
+   - Başlık işlemleri sayfasının düzenlemeleri yapıldı.
+   - Başlığa göre içerikleri görüntüleme (Content By Heading) çalışmaları yapıldı.
+   - Başlığa göre içerikleri görüntüleme (Content By Heading) çalışmalarına devam edildi.
