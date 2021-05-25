@@ -63,3 +63,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Başlık işlemleri sayfasının düzenlemeleri yapıldı.
    - Başlığa göre içerikleri görüntüleme (Content By Heading) çalışmaları yapıldı.
    - Başlığa göre içerikleri görüntüleme (Content By Heading) çalışmalarına devam edildi.
+#### Ders 53-56
+   - Başlığa göre içerikleri görüntüleme (Content By Heading) çalışmalarına devam edildi.
+   - Başlık işlemlerinin güncelleme detayları yapıldı.
+   - Başlıkların silinmesi işlemleri tamamlandı.
+   - Popup modal (açılır pencere) kullanımı gösterildi.
