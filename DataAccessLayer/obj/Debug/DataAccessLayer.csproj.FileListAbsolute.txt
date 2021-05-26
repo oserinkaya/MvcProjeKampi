@@ -8,7 +8,6 @@ C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\Dat
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityLayer.dll.config
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
@@ -21,3 +20,4 @@ C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\Dat
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_addstatus.resources
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentstatusadd.resources
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingstatusadd.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
