@@ -68,3 +68,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Başlık işlemlerinin güncelleme detayları yapıldı.
    - Başlıkların silinmesi işlemleri tamamlandı.
    - Popup modal (açılır pencere) kullanımı gösterildi.
+#### Ders 57-60
+   - Hakkımda sayfasına popup modal üzerinden veri ekleme çalışmaları yapıldı.
+   - "İletişim&Mesajlar" bölümünde kullanılacak "Gelen Kutusu" sayfasının hazırlık çalışmaları yapıldı.
+   - "İletişim&Mesajlar" bölümünde gelen mesajların listelenmesi çalışması yapıldı.
+   - "İletişim&Mesajlar" bölümünde gelen bir mesajın detaylarını görüntüleme çalışması yapıldı.
