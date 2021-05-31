@@ -6,7 +6,12 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-@{ string color = ""; }
+@{
+    string color = "";
+    string StatusColor = "";
+    string StatusLabel = "";
+    string DeleteButtonLabel = "";
+}
 
 <!DOCTYPE html>
 <html>
@@ -99,6 +104,21 @@
                             {
                                 color = "badge badge-secondary";
                             }
+
+                            switch (item.HeadingStatus)
+                            {
+                                case true:
+                                    StatusColor = "badge badge-success";
+                                    StatusLabel = "Aktif";
+                                    DeleteButtonLabel = "Pasif Yap";
+                                    break;
+                                case false:
+                                    StatusColor = "badge badge-danger";
+                                    StatusLabel = "Pasif";
+                                    DeleteButtonLabel = "Aktif Yap";
+                                    break;
+                            }
+
                             <tr>
                                 <td>
                                     @item.HeadingID
@@ -111,8 +131,14 @@
                                     <small>
                                         @(((DateTime)item.HeadingDate).ToString("dd-MMM-yyyy"))
                                     </small>
+
+
                                 </td>
+
+
                                 <td>
+
+
                                     <ul class="list-inline">
                                         <li class="list-inline-item">
                                             <img alt="Avatar" class="table-avatar" src="@item.Writer.WriterImage">
@@ -120,7 +146,8 @@
                                     </ul>
                                 </td>
                                 <td>
-                                    @item.HeadingStatus
+                                    <span class="@StatusColor">@StatusLabel</span>
+                                    @*@item.HeadingStatus*@
                                 </td>
                                 <td class="project-state">
                                     <span class="@color">@item.Category.CategoryName</span>
@@ -139,7 +166,7 @@
                                     <a class="btn btn-danger btn-sm" href="/Heading/DeleteHeading/@item.HeadingID">
                                         <i class="fas fa-trash">
                                         </i>
-                                        Sil
+                                        @DeleteButtonLabel
                                     </a>
                                 </td>
                             </tr>
@@ -166,7 +193,7 @@
             <th>Kategori</th>
         </tr>
         @foreach (var item in Model)
-        {
+                        {
             <tr>
                 <td>@item.HeadingID</td>
                 <td>@item.HeadingName</td>
