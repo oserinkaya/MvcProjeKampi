@@ -73,3 +73,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - "İletişim&Mesajlar" bölümünde kullanılacak "Gelen Kutusu" sayfasının hazırlık çalışmaları yapıldı.
    - "İletişim&Mesajlar" bölümünde gelen mesajların listelenmesi çalışması yapıldı.
    - "İletişim&Mesajlar" bölümünde gelen bir mesajın detaylarını görüntüleme çalışması yapıldı.
+#### Ders 61-64
+   - Kişilerin kendileri arasında mesajlaşabildikleri bir sayfa oluşturuldu.
+   - Mesaj Controller ve admine gelen mesajların görüntülenmesi üzerinde duruldu.
+   - Yeni mesaj oluşturma sayfası üzerinde çalışmalara başlandı ve ilgili tema uygulaması yapıldı.
+   - Yeni mesaj oluşturma sayfasında son düzenlemeler yapıldı.
