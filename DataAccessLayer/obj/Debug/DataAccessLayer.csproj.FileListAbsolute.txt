@@ -21,3 +21,4 @@ C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\Dat
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentstatusadd.resources
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingstatusadd.resources
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_message.resources

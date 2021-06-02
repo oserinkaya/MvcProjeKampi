@@ -5,8 +5,8 @@ C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\Ent
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
