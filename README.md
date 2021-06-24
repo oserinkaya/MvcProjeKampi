@@ -78,3 +78,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Mesaj Controller ve admine gelen mesajların görüntülenmesi üzerinde duruldu.
    - Yeni mesaj oluşturma sayfası üzerinde çalışmalara başlandı ve ilgili tema uygulaması yapıldı.
    - Yeni mesaj oluşturma sayfasında son düzenlemeler yapıldı.
+#### Ders 65-68
+   - Mesaj sayfalarında yapılması gereken revizyonlar yapıldı.
+   - Mesaj sayfalarındaki yapılması gereken işlemler tamamlandı.
+   - Projede kullanılacak 404 kodlu hata sayfası hazırlandı.
+   - Fotoğraf galerisi oluşturuldu ve düzenlemeleri yapıldı.
