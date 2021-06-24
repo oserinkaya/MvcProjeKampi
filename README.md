@@ -80,6 +80,6 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Yeni mesaj oluşturma sayfasında son düzenlemeler yapıldı.
 #### Ders 65-68
    - Mesaj sayfalarında yapılması gereken revizyonlar yapıldı.
-   - Mesaj sayfalarındaki yapılması gereken işlemler tamamlandı.
+   - Mesaj sayfalarında yapılması gereken işlemler tamamlandı.
    - Projede kullanılacak 404 kodlu hata sayfası hazırlandı.
    - Fotoğraf galerisi oluşturuldu ve düzenlemeleri yapıldı.
