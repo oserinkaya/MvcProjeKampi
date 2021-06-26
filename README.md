@@ -83,3 +83,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Mesaj sayfalarında yapılması gereken işlemler tamamlandı.
    - Projede kullanılacak 404 kodlu hata sayfası hazırlandı.
    - Fotoğraf galerisi oluşturuldu ve düzenlemeleri yapıldı.
+#### Ders 69-72
+   - Login sayfası hazırlama ve bu sayfaya ilgili temanın giydirilmesi çalışmaları yapıldı.
+   - Admin login işlemlerine ilişkin çalışmalar yapıldı.
+   - Sayfa geçişlerinde kullanılacak authentication ve session çalışmaları yapıldı.
+   - Yetkili kullanıcıların menüde hangi bölümleri görebileceğine ilişkin rolleme çalışmaları yapıldı.
