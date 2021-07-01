@@ -25,3 +25,12 @@ C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\Dat
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactadddate.resources
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addimage_file.resources
 C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_admin_table.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_messagereadstatus.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_aboutstatus.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_skilltable.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_skillstatus.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_skillvalue.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_delete_skillvalue.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_delete_skillstatus.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_adminNameSurname.resources
+C:\Users\Oktay SERINKAYA\Documents\Visual Studio 2019\Projects\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add_adminstatus.resources

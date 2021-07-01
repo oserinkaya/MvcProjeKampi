@@ -1,0 +1,46 @@
+﻿@model EntityLayer.Concrete.Admin
+
+@{
+    ViewBag.Title = "AddAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yeni Admin Kullanıcısı Ekleme Sayfası</h2>
+<br />
+@using (Html.BeginForm("AddAdmin", "AdminUser", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Adı")
+        @Html.TextBoxFor(x => x.AdminName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.AdminName, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.Label("Soyadı")
+        @Html.TextBoxFor(x => x.AdminSurname, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.AdminSurname, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.Label("E-Posta Adresi")
+        @Html.TextBoxFor(x => x.AdminUserName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.AdminUserName, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.Label("Parola")
+        <input class="form-control" type="password" name="AdminPassword" />
+        @Html.ValidationMessageFor(x => x.AdminPassword, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.Label("Rol")
+        <select class="form-control" name="AdminRole">
+            <option value="A">Admin-A</option>
+            <option value="B">Admin-B</option>
+        </select>
+        @Html.ValidationMessageFor(x => x.AdminRole, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.Label("Durumu")
+        <select class="form-control" name="AdminStatus">
+            <option value="True">Aktif</option>
+            <option value="False">Pasif</option>
+        </select>
+        @Html.ValidationMessageFor(x => x.AdminStatus, "", new { @class = "text-danger" })
+        <br /><br />
+        <button class="btn btn-info">Kaydet</button>
+    </div>
+}
+

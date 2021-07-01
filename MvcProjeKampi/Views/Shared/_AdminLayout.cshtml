@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="~/AdminLTE-3.0.4/plugins/fontawesome-free/css/all.min.css">
     <!-- IonIcons -->
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="~/AdminLTE-3.0.4/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="~/AdminLTE-3.0.4/plugins/icheck-bootstrap/icheck-bootstrap.min.css" rel="stylesheet" />
     <!-- Theme style -->
     <link rel="stylesheet" href="~/AdminLTE-3.0.4/dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
@@ -60,8 +62,8 @@ to get the desired effect
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
-         with font-awesome or any other icon font library -->
-                        @if (User.IsInRole("B"))
+    with font-awesome or any other icon font library -->
+                        @if (User.IsInRole("A"))
                         {
                             <li class="nav-item has-treeview">
                                 <a href="/AdminCategory/Index" class="nav-link">
@@ -157,6 +159,22 @@ to get the desired effect
                                 </p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="/Skill/MySkills" class="nav-link">
+                                <i class="nav-icon far fa-image"></i>
+                                <p>
+                                    Yetenek Kartım
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/AdminUser/Index" class="nav-link">
+                                <i class="nav-icon far fa-user"></i>
+                                <p>
+                                    Admin Kullanıcı İşlemleri
+                                </p>
+                            </a>
+                        </li>
                         <li class="nav-item has-treeview">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-book"></i>
@@ -194,7 +212,7 @@ to get the desired effect
     <!-- ./wrapper -->
     <!-- REQUIRED SCRIPTS -->
     <!-- jQuery -->
-    @*<script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>*@
+    <script src="~/AdminLTE-3.0.4/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="~/AdminLTE-3.0.4/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE -->

@@ -37,5 +37,21 @@ namespace MvcProjeKampi.Controllers
         {
             return PartialView();
         }
+
+        public ActionResult DeleteAbout(int id)
+        {
+            var AboutValue = abm.GetByID(id);
+            switch (AboutValue.AboutStatus)
+            {
+                case true:
+                    AboutValue.AboutStatus = false;
+                    break;
+                case false:
+                    AboutValue.AboutStatus = true;
+                    break;
+            }
+            abm.AboutDelete(AboutValue);
+            return RedirectToAction("Index");
+        }
     }
 }

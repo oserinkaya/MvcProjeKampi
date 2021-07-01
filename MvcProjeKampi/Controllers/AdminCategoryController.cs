@@ -52,7 +52,7 @@ namespace MvcProjeKampi.Controllers
             return View();
         }
 
-        public ActionResult DeleteCategory (int id)
+        public ActionResult DeleteCategory(int id)
         {
             var categoryvalue = cm.GetByID(id);
             cm.CategoryDelete(categoryvalue);

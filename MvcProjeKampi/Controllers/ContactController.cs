@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,8 @@ namespace MvcProjeKampi.Controllers
         ContactManager cm = new ContactManager(new EfContactDal());
         ContactValidator cv = new ContactValidator();
 
+        Context msgstatus = new Context();
+
         public ActionResult Index()
         {
             var contactvalues = cm.GetList();
@@ -29,6 +32,18 @@ namespace MvcProjeKampi.Controllers
 
         public PartialViewResult ContactSideMenuPartial()
         {
+            //Okunmamış Mesaj Sayısı
+            var UnreadMessageCount = msgstatus.Messages.Count(x => x.MessageReadStatus == false && x.ReceiverMail == "admin@gmail.com");
+            ViewBag.umc = UnreadMessageCount;
+
+            //Okunmuş Mesaj Sayısı
+            var ReadMessageCount = msgstatus.Messages.Count(x => x.MessageReadStatus == true && x.ReceiverMail == "admin@gmail.com");
+            ViewBag.rmc = ReadMessageCount;
+
+            //Toplam Mesaj Sayısı
+            var TotalMessageCount = msgstatus.Messages.Count(x => x.ReceiverMail == "admin@gmail.com");
+            ViewBag.tmc = TotalMessageCount;
+
             return PartialView();
         }
     }

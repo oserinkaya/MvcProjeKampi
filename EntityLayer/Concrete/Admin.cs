@@ -13,6 +13,12 @@ namespace EntityLayer.Concrete
         public int AdminID { get; set; }
 
         [StringLength(50)]
+        public string AdminName { get; set; }
+
+        [StringLength(50)]
+        public string AdminSurname { get; set; }
+
+        [StringLength(50)]
         public string AdminUserName { get; set; }
 
         [StringLength(50)]
@@ -20,5 +26,7 @@ namespace EntityLayer.Concrete
 
         [StringLength(1)]
         public string AdminRole { get; set; }
+
+        public bool AdminStatus { get; set; }
     }
 }
