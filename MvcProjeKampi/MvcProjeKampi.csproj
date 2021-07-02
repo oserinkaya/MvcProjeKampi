@@ -148,6 +148,7 @@
     <Compile Include="Controllers\SkillController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\WriterController.cs" />
+    <Compile Include="Controllers\WriterPanelController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -2403,11 +2404,13 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="SS\MVCProjeKampi_Gorev_002.PNG" />
-    <Content Include="SS\MVCProjeKampi_Gorev_003_01_Mesaj Sayilari.PNG" />
-    <Content Include="SS\MVCProjeKampi_Gorev_003_02_Yetenek Karti.PNG" />
-    <Content Include="SS\MVCProjeKampi_Gorev_003_03_Yetenek Listesi.PNG" />
-    <Content Include="SS\MVCProjeKampi_Gorev_003_04_Yetenek Ekleme.PNG" />
-    <Content Include="SS\MVCProjeKampi_Gorev_003_05_Yetenek Guncelleme.PNG" />
+    <Content Include="SS\MVCProjeKampi_Gorev_003_01_Mesaj Sayilari.png" />
+    <Content Include="SS\MVCProjeKampi_Gorev_003_02_Hakkimizda Aktif Pasif Mekanizmasi.PNG" />
+    <Content Include="SS\MVCProjeKampi_Gorev_003_03_Admin Bilgileri Hashleniyor.PNG" />
+    <Content Include="SS\MVCProjeKampi_Gorev_003_04_Yetenek Karti.PNG" />
+    <Content Include="SS\MVCProjeKampi_Gorev_003_05_Yetenek Listesi.PNG" />
+    <Content Include="SS\MVCProjeKampi_Gorev_003_06_Yetenek Ekleme.PNG" />
+    <Content Include="SS\MVCProjeKampi_Gorev_003_07_Yetenek Guncelleme.PNG" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -2462,6 +2465,9 @@
     <Content Include="Views\AdminUser\AddAdmin.cshtml" />
     <Content Include="Views\AdminUser\EditAdmin.cshtml" />
     <Content Include="Views\AdminUser\EditAdminPassword.cshtml" />
+    <Content Include="Views\Shared\_WriterLayout.cshtml" />
+    <Content Include="Views\WriterPanel\WriterProfile.cshtml" />
+    <Content Include="Views\WriterPanel\MyHeading.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
