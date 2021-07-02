@@ -59,9 +59,6 @@
                             <th style="width: 15%">
                                 Oluşturan Yazar
                             </th>
-                            <th style="width: 10%">
-                                Durum
-                            </th>
                             <th style="width: 8%" class="text-center">
                                 Kategori
                             </th>
@@ -141,10 +138,6 @@
                                         </li>
                                     </ul>
                                 </td>
-                                <td>
-                                    <span class="@StatusColor">@StatusLabel</span>
-                                    @*@item.HeadingStatus*@
-                                </td>
                                 <td class="project-state">
                                     <span class="@color">@item.Category.CategoryName</span>
                                 </td>
@@ -154,7 +147,7 @@
                                         </i>
                                         Yazılar
                                     </a>
-                                    <a class="btn btn-info btn-sm" href="/Heading/EditHeading/@item.HeadingID">
+                                    <a class="btn btn-info btn-sm" href="/WriterPanel/EditHeading/@item.HeadingID">
                                         <i class="fas fa-pencil-alt">
                                         </i>
                                         Düzenle
@@ -177,4 +170,4 @@
 </body>
 </html>
 <br />
-<a href="/Heading/AddHeading/" class="btn btn-primary">Yeni Başlık Girişi</a>
+<a href="/WriterPanel/NewHeading" class="btn btn-primary">Yeni Başlık Girişi</a>
