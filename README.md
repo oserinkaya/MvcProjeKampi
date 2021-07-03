@@ -93,3 +93,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Yazara ait başlıkların listelenmesi çalışmaları yapıldı.
    - Yazar panelindeki mesajlaşma işlemlerine ilişkin çalışmalar yapıldı.
    - Yazarın yazdığı yazıların listelenmesi çalışmaları yapıldı.
+#### Ders 77-80
+   - Yazar giriş işlemleri (Writer Login) hakkında çalışmalar yapıldı.
+   - Session ile bilgileri taşıma çalışmaları yapıldı.
+   - Session (oturum) yönetimiyle ve AllowAnonymous kavramıyla ilgili çalışmalar yapıldı.
+   - Oturum yönetimi (session) ve bunun başlık işlemlerinde kullanılması çalışmaları yapıldı.
