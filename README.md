@@ -88,3 +88,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Admin login işlemlerine ilişkin çalışmalar yapıldı.
    - Sayfa geçişlerinde kullanılacak authentication ve session çalışmaları yapıldı.
    - Yetkili kullanıcıların menüde hangi bölümleri görebileceğine ilişkin rolleme çalışmaları yapıldı.
+#### Ders 73-76
+   - Yazar panelinin oluşturulması ve temanın uygulanması çalışmaları yapıldı.
+   - Yazara ait başlıkların listelenmesi çalışmaları yapıldı.
+   - Yazar panelindeki mesajlaşma işlemlerine ilişkin çalışmalar yapıldı.
+   - Yazarın yazdığı yazıların listelenmesi çalışmaları yapıldı.
