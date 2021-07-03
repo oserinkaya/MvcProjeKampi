@@ -98,3 +98,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Session ile bilgileri taşıma çalışmaları yapıldı.
    - Session (oturum) yönetimiyle ve AllowAnonymous kavramıyla ilgili çalışmalar yapıldı.
    - Oturum yönetimi (session) ve bunun başlık işlemlerinde kullanılması çalışmaları yapıldı.
+#### Ders 81-84
+   - Vitrin sayfası oluşturma çalışmaları yapıldı.
+   - Vitrin sayfasında tüm başlıkların listelenmesi çalışmaları yapıldı.
+   - Seçilen bir başlığa göre yazıların listelenmesi çalışmaları yapıldı.
+   - Seçilen bir başlık için yeni bir entry (içerik) girişi çalışmaları yapıldı.
