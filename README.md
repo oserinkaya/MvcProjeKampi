@@ -103,3 +103,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Vitrin sayfasında tüm başlıkların listelenmesi çalışmaları yapıldı.
    - Seçilen bir başlığa göre yazıların listelenmesi çalışmaları yapıldı.
    - Seçilen bir başlık için yeni bir entry (içerik) girişi çalışmaları yapıldı.
+#### Ders 85-88
+   - Fazla verinin olduğu bölümlerde sayfalama (paging) çalışması yapıldı.
+   - Mesajlar bölümünde oturum (session) yönetimi çalışması yapıldı.
+   - Yazar panelinde yazarın profilini düzenleme çalışması yapıldı.
+   - Oturum açma (login) işleminin mimariye taşınması ve admin panelinde yapılacakların belirlenmesi çalışmaları yapıldı.
