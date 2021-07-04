@@ -1,4 +1,4 @@
-# MvcProjeKampi
+# Mvc Proje Kampı
 
 MVC Proje Kampı İçin Oluşturulan Repository
 
