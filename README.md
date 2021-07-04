@@ -108,3 +108,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Mesajlar bölümünde oturum (session) yönetimi çalışması yapıldı.
    - Yazar panelinde yazarın profilini düzenleme çalışması yapıldı.
    - Oturum açma (login) işleminin mimariye taşınması ve admin panelinde yapılacakların belirlenmesi çalışmaları yapıldı.
+#### Ders 89-92
+   - Vitrin sayfası oluşturma çalışmalarının 1 inci bölümü yapıldı.
+   - Vitrin sayfası oluşturma çalışmalarının 2 nci bölümü yapıldı.
+   - Vitrin sayfası oluşturma çalışmalarının 3 üncü bölümü yapıldı.
+   - İçeriklerde girilen kelimeye göre arama işlemi çalışmaları yapıldı.
