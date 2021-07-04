@@ -208,6 +208,15 @@
     <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\g7.jpg" />
     <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\g8.jpg" />
     <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\g9.jpg" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_001.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_002.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_003.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_004.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_005.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_006.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_007.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_008.png" />
+    <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\gorsel_009.png" />
     <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\loader.gif" />
     <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\move_up.png" />
     <Content Include="AdminLTE-3.0.4\ders_89_vitrin\images\next.png" />
