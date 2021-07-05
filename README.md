@@ -113,3 +113,8 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Vitrin sayfası oluşturma çalışmalarının 2 nci bölümü yapıldı.
    - Vitrin sayfası oluşturma çalışmalarının 3 üncü bölümü yapıldı.
    - İçeriklerde girilen kelimeye göre arama işlemi çalışmaları yapıldı.
+#### Ders 93-96
+   - IFrame ekleme ve yazar görsellerini düzenleme çalışmaları yapıldı.
+   - Google chart kullanımıyla grafik oluşturma çalışmaları yapıldı.
+   - Veritabanı tablolarında yer alan verilerin çeşitli formatlarda (PDF, Excel, vb) raporlanması çalışmaları yapıldı.
+   - Admin kullanıcılarının yetkilendirme düzenlemeleriyle ilgili çalışmalar yapıldı.
