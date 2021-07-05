@@ -11,6 +11,7 @@
 <table class="table table-bordered">
     <tr>
         <th>#</th>
+        <th>Kullanıcı Adı</th>
         <th>Kullanıcı Mail</th>
         <th>Yetki</th>
         <th>Durum</th>
@@ -22,13 +23,14 @@
     {
         <tr>
             <th>@item.AdminID</th>
+            <td>@item.AdminName @item.AdminSurname</td>
             <td>@item.AdminUserName</td>
             <td>@item.AdminRole</td>
             <td>@item.AdminStatus</td>
             <td><a href="/AdminCategory/DeleteCategory/@item.AdminID" class="btn btn-danger">Pasif Yap</a></td>
-            <td><a href="/AdminCategory/EditCategory/@item.AdminID" class="btn btn-warning">Yetkisini Değiştir</a></td>
+            <td><a href="/Authorization/EditAdmin/@item.AdminID" class="btn btn-warning">Yetkisini Değiştir</a></td>
         </tr>
     }
 </table>
-<a class="btn btn-info" href="/AdminCategory/AddCategory">Yeni Admin Tanımla</a>
+<a class="btn btn-info" href="/Authorization/AddAdmin">Yeni Admin Tanımla</a>
 
