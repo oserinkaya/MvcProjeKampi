@@ -63,7 +63,7 @@ to get the desired effect
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
     with font-awesome or any other icon font library -->
-                        @if (User.IsInRole("A"))
+                        @if (User.IsInRole("B"))
                         {
                             <li class="nav-item has-treeview">
                                 <a href="/AdminCategory/Index" class="nav-link">
@@ -79,6 +79,14 @@ to get the desired effect
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     Başlıklar
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Calendar/Index" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Başlıklar Takvimi
                                 </p>
                             </a>
                         </li>
@@ -108,21 +116,27 @@ to get the desired effect
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/Chart/Index" class="nav-link">
+                                    <a href="/Chart/CategoryPieChart" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Grafik 1</p>
+                                        <p>G1 / Kategori-Başlık Grafiği</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/flot.html" class="nav-link">
+                                    <a href="/Chart/WriterColumnChart" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Grafik 2</p>
+                                        <p>G2 / Yazar-Başlık Grafiği</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/inline.html" class="nav-link">
+                                    <a href="/Chart/TalentLineChart" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Grafik 3</p>
+                                        <p>G3 / Yetenek-Oran Grafiği</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/istatistik/Index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>G4 / İstatistikler</p>
                                     </a>
                                 </li>
                             </ul>

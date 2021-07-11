@@ -7,7 +7,7 @@
 
 <h1>Yeni Yazar Ekleme</h1>
 <br />
-@using (Html.BeginForm("AddWriter", "Writer", FormMethod.Post))
+@using (Html.BeginForm("AddWriter", "Writer", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     <div class="form-group">
         @Html.Label("Yazar Adı")
@@ -26,7 +26,7 @@
         @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
         @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @class = "text-danger" })
         <br />
-        @Html.Label("Yazar Görsel Linki")
+        @Html.Label("Yazar Fotoğrafı")
         @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
         @Html.ValidationMessageFor(x => x.WriterImage, "", new { @class = "text-danger" })
         <br />
