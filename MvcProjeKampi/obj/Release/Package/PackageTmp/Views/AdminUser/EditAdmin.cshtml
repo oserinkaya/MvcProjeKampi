@@ -1,0 +1,39 @@
+﻿@model EntityLayer.Concrete.Admin
+
+@{
+    ViewBag.Title = "EditAdmin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Admin Bilgileri Güncelleme Sayfası</h2>
+<br />
+@using (Html.BeginForm("EditAdmin", "AdminUser", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.HiddenFor(x => x.AdminID)
+        @Html.Label("Adı")
+        @Html.TextBoxFor(x => x.AdminName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.AdminName, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.Label("Soyadı")
+        @Html.TextBoxFor(x => x.AdminSurname, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.AdminSurname, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.Label("E-Posta Adresi")
+        <input class="form-control" name="AdminUserName"/>
+        @*@Html.TextBoxFor(x => x.AdminUserName, new { @class = "form-control" })*@
+        @Html.ValidationMessageFor(x => x.AdminUserName, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.HiddenFor(x => x.AdminPassword)
+        @Html.Label("Rol")
+        <select class="form-control" name="AdminRole">
+            <option value="A">Admin-A</option>
+            <option value="B">Admin-B</option>
+        </select>
+        @Html.ValidationMessageFor(x => x.AdminRole, "", new { @class = "text-danger" })
+        <br /><br />
+        @Html.HiddenFor(x => x.AdminStatus)
+        <button class="btn btn-success">Güncelle</button>
+    </div>
+}
+

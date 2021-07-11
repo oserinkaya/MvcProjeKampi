@@ -1,0 +1,64 @@
+﻿@using EntityLayer.Concrete
+@model List<About>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{
+    //string color = "";
+    string AboutStatusColor = "";
+    string AboutStatusLabel = "";
+    string AboutDeleteButtonColor = "";
+    string AboutDeleteButtonLabel = "";
+}
+
+<h2>Hakkımda Veri Listesi</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Hakkımda Başlığı - 1</th>
+            <th>Hakkımda Başlığı - 2</th>
+            <th>Hakkımda Fotoğraf - 1</th>
+            <th>Hakkımda Fotoğraf - 2</th>
+            <th>Durum</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        switch (item.AboutStatus)
+        {
+            case true:
+                AboutStatusColor = "badge badge-success";
+                AboutStatusLabel = "Aktif";
+                AboutDeleteButtonColor = "btn btn-danger";
+                AboutDeleteButtonLabel = "Pasif Yap";
+                break;
+            case false:
+                AboutStatusColor = "badge badge-danger";
+                AboutStatusLabel = "Pasif";
+                AboutDeleteButtonColor = "btn btn-success";
+                AboutDeleteButtonLabel = "Aktif Yap";
+                break;
+        }
+
+        <tr>
+            <th>@item.AboutID</th>
+            <td>@item.AboutDetails1</td>
+            <td>@item.AboutDetails2</td>
+            <td>@item.AboutImage1</td>
+            <td>@item.AboutImage2</td>
+            <td>
+                <span class="@AboutStatusColor">@AboutStatusLabel</span>
+            </td>
+            <td>
+                <a class="@AboutDeleteButtonColor" href="/About/DeleteAbout/@item.AboutID">@AboutDeleteButtonLabel</a>
+            </td>
+        </tr>
+    }
+</table>
+
+@Html.Action("AboutPartial", "About")

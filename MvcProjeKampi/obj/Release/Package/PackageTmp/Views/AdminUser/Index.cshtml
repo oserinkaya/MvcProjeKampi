@@ -1,0 +1,70 @@
+﻿@using EntityLayer.Concrete
+@model List<Admin>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@{ 
+    string AdminStatusColor = "";
+    string AdminStatusLabel = "";
+    string AdminStatusButtonColor = "";
+    string AdminStatusButtonLabel = "";
+}
+
+<h2>Admin Kullanıcı İşlemleri</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Adı</th>
+        <th>Soyadı</th>
+        <th>Rolü</th>
+        <th>Durumu</th>
+        <th>İşlem</th>
+        <th>Bilgileri Güncelle</th>
+        <th>Parola Değiştir</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        switch (item.AdminStatus)
+        {
+            case true:
+                AdminStatusColor = "badge badge-success";
+                AdminStatusLabel = "Aktif";
+                AdminStatusButtonColor = "btn btn-danger";
+                AdminStatusButtonLabel = "Pasif Yap";
+                break;
+            case false:
+                AdminStatusColor = "badge badge-danger";
+                AdminStatusLabel = "Pasif";
+                AdminStatusButtonColor = "btn btn-success";
+                AdminStatusButtonLabel = "Aktif Yap";
+                break;
+        }
+
+        <tr>
+            <th>@item.AdminID</th>
+            <td>@item.AdminName</td>
+            <td>@item.AdminSurname</td>
+            <td>@item.AdminRole</td>
+            <td>
+                <span class="@AdminStatusColor">@AdminStatusLabel</span>
+            </td>
+            <td>
+                <a class="@AdminStatusButtonColor" href="/AdminUser/DeleteAdmin/@item.AdminID">@AdminStatusButtonLabel</a>
+            </td>
+            <td>
+                <a class="btn btn-warning" href="/AdminUser/EditAdmin/@item.AdminID">Bilgi Güncelle</a>
+            </td>
+            <td>
+                <a class="btn btn-primary" href="/AdminUser/EditAdminPassword/@item.AdminID">Parola Değiştir</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<a class="btn btn-info" href="/AdminUser/AddAdmin">Yeni Kullanıcı Ekle</a>
+
