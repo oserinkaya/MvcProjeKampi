@@ -23,6 +23,7 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Generic Repository kavramı üzerinde duruldu.
    - BusinessLayer katmanı üzerinde çalışma yapıldı.
    - Tablo kullanımı çalışmaları yapıldı.
+   - 1 inci sertifika görevi tamamlandı.
 #### Ders 21-24
    - Bootstrap kavramı üzerinde çalışmalar yapıldı.
    - Kategorilerin listelenmesi yapıldı.
@@ -48,6 +49,7 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Kategori silme işlemi gerçekleştirildi.
    - Kategori güncelleme işlemi için güncellenecek kategori bilgilerinin güncelleme sayfasına taşınması işlemleri yapıldı.
    - Kategori güncelleme işlemine giriş yapıldı.
+   - 2 nci sertifika görevi tamamlandı.
 #### Ders 41-44
    - Entity State komutlarından bahsedildi ve kategori işlemlerine uygulaması yapıldı.
    - Yazar işlemlerinin yapılmasına başlandı.
@@ -88,6 +90,7 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Admin login işlemlerine ilişkin çalışmalar yapıldı.
    - Sayfa geçişlerinde kullanılacak authentication ve session çalışmaları yapıldı.
    - Yetkili kullanıcıların menüde hangi bölümleri görebileceğine ilişkin rolleme çalışmaları yapıldı.
+   - 3 üncü sertifika görevi tamamlandı.
 #### Ders 73-76
    - Yazar panelinin oluşturulması ve temanın uygulanması çalışmaları yapıldı.
    - Yazara ait başlıkların listelenmesi çalışmaları yapıldı.
@@ -118,3 +121,9 @@ MVC Proje Kampı İçin Oluşturulan Repository
    - Google chart kullanımıyla grafik oluşturma çalışmaları yapıldı.
    - Veritabanı tablolarında yer alan verilerin çeşitli formatlarda (PDF, Excel, vb) raporlanması çalışmaları yapıldı.
    - Admin kullanıcılarının yetkilendirme düzenlemeleriyle ilgili çalışmalar yapıldı.
+#### Ders 97-100
+   - Admin kullanıcılarının yetkilendirme düzenlemeleriyle ilgili çalışmalar tamamlandı.
+   - Publish işlemi yapılarak proje canlı sunucuya taşınacak hale getirildi.
+   - Veritabanının yedeklenmesi ve canlı sunucuya taşınması çalışması yapıldı.
+   - Proje hakkında son konuşmalar yapıldı.
+   - 4 üncü ve son sertifika görevi tamamlandı.
